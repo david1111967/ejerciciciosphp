@@ -11,7 +11,7 @@
         $maxmultiplicador = 10;
         
         for ($row = 1; $row <= $maxmultiplicador; $row++) {            
-            echo NUM, " * $row = ", (NUM * $row), "<br/>";            
+            echo (NUM), " * $row = ", (NUM * $row), "<br/>";            
         }
     ?>
 </body>

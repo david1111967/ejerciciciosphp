@@ -18,10 +18,10 @@
         }
                     
         if ($count > 2){
-            echo "No es Primo";
+            echo "El ", (NUM), " no es Primo";
         }
         else {
-            echo "El", NUM, "es un numero Primo";     
+            echo "El ", (NUM), " es un numero Primo";     
         }                                        
     ?>
 </body>
