@@ -12,8 +12,7 @@
         
         for($row = 1; $row <= $divisor; $row++){
             if($numero % $row == 0){                
-                echo($row);
-                echo "<br/>";
+                echo ($row), "<br/>";                
             }
         }
     ?>

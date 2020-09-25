@@ -12,10 +12,9 @@
         $fibonacci2 = 1;
         
         for($row = 0; $row <= $numero; $row++){
-            echo($fibonacci2);
+            echo ($fibonacci2), "<br/>";
             $fibonacci2 = $fibonacci1 + $fibonacci2;
-            $fibonacci1 = $fibonacci2 - $fibonacci1;
-            echo "<br/>";
+            $fibonacci1 = $fibonacci2 - $fibonacci1;            
         }
     ?>
 </body>
