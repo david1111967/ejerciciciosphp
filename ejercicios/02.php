@@ -7,13 +7,11 @@
 </head>
 <body>
     <?php        
-        $num = 8;
+        define("NUM", 8);
         $maxmultiplicador = 10;
         
         for ($row = 1; $row <= $maxmultiplicador; $row++) {            
-            echo "$num * $row = "; 
-            echo ($num * $row);
-            echo "<br/>";
+            echo NUM, " * $row = ", (NUM * $row), "<br/>";            
         }
     ?>
 </body>

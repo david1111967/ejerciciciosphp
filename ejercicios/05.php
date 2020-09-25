@@ -7,13 +7,12 @@
 </head>
 <body>
     <?php
-        $numero = 10;        
+        define("NUM", 8);        
         $count = 0;
 
-        for ($row = 1; $row <= $numero; $row++){
-            if ($numero % $row == 0){
-                echo ($row);
-                echo "<br/>";
+        for ($row = 1; $row <= NUM; $row++){
+            if (NUM % $row == 0){
+                echo ($row),"<br/>";
                 $count++;
             }            
         }
@@ -22,7 +21,7 @@
             echo "No es Primo";
         }
         else {
-            echo "El $numero es un numero Primo";     
+            echo "El", NUM, "es un numero Primo";     
         }                                        
     ?>
 </body>
