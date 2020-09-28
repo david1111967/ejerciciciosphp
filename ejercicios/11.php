@@ -32,6 +32,9 @@
         else if (is_numeric($_POST["paginas"]) == false && empty($_POST["paginas"]) == false) {
             echo "Introduce una página";
         }
+        else if (empty($_POST["titulo"]) || empty($_POST["autor"]) || empty($_POST["editorial"]) || empty($_POST["paginas"])){
+            echo "Rellene todos los campos";
+        }
     ?>
 </body>
 </html>
