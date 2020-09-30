@@ -1,5 +1,5 @@
 <?php
-    if (empty($_POST["nombre"])){
+    if (empty($_POST["nombre"]) || isset($_POST)){
         echo "hola";
     }
     else {
