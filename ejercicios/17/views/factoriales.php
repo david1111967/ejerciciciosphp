@@ -10,8 +10,8 @@
     <?php                     
         if (isset($factoriales->result)){ 
             echo "<lu>";
-                foreach ($factoriales->result as $element){
-                    echo "<li>", $element, "</li>";
+                foreach ($factoriales->result as $position => $element){
+                    echo "<li>", ($position + 1), " --> ", $element, "</li>";
                 }
             echo "</lu>";
         }        

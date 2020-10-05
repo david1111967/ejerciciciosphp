@@ -49,7 +49,7 @@
             require_once "../models/factoriales.php";
             $factoriales = new Factoriales;
             $factoriales->factoriales();
-            include('../views/potencias2.php');            
+            include('../views/factoriales.php');            
         }
 
         public function primos()
