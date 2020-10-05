@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>  
-    <h1>Fibonacci</h1>
+<body>
+    <h1>Numeros Primos 1 a 10000</h1>
     <?php                     
-        if (isset($fibonacci->result)){ 
+        if (isset($primos->result)){ 
             echo "<lu>";
-                foreach ($fibonacci->result as $element){
+                foreach ($primos->result as $element){
                     echo "<li>", $element, "</li>";
                 }
             echo "</lu>";
         }        
-    ?>      
+    ?>
 </body>
 </html>

@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>  
-    <h1>Fibonacci</h1>
+<body>
+    <h1>Potencias de 2</h1>
     <?php                     
-        if (isset($fibonacci->result)){ 
+        if (isset($potencias2->result)){ 
             echo "<lu>";
-                foreach ($fibonacci->result as $element){
-                    echo "<li>", $element, "</li>";
+                foreach ($potencias2->result as $position=>$element){
+                    echo "<li>", "2 ^ ", ($position + 1), " = ", $element, "</li>";
                 }
             echo "</lu>";
         }        
-    ?>      
+    ?>   
 </body>
 </html>
