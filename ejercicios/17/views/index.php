@@ -7,10 +7,10 @@
 </head>
 <body>
     <ul>
-        <li><a href="/ejercicios/17/Index.php?method=">Fibonacci</a></li>
-        <li><a href="/ejercicios/17/Index.php?method=">Potencias de 2</a></li>
-        <li><a href="/ejercicios/17/Index.php?method=">Factorial</a></li>
-        <li><a href="/ejercicios/17/Index.php?method=">Nº. primos</a></li>
+        <li><a href="/ejercicios/17/controlador/menu.php?method=fibonacci">Fibonacci</a></li>
+        <li><a href="/ejercicios/17/controlador/menu.php?method=">Potencias de 2</a></li>
+        <li><a href="/ejercicios/17/controlador/menu.php?method=">Factorial</a></li>
+        <li><a href="/ejercicios/17/controlador/menu.php?method=">Nº. primos</a></li>
     </ul>
 </body>
 </html>
