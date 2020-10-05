@@ -30,7 +30,7 @@
 
         public function fibonacci()
         {
-            require_once "../controlador/fibonacci.php";
+            require_once "../models/fibonacci.php";
             $fibonacci = new Fibonacci;
             $fibonacci->fibonacci();
             include('../views/fibonacci.php');            
@@ -38,7 +38,7 @@
 
         public function potencias2()
         {
-            require_once "../controlador/potencias2.php";
+            require_once "../models/potencias2.php";
             $potencias2 = new Potencias2;
             $potencias2->potencias2();
             include('../views/potencias2.php');            
@@ -46,7 +46,7 @@
 
         public function factoriales()
         {
-            require_once "../controlador/factoriales.php";
+            require_once "../models/factoriales.php";
             $factoriales = new Factoriales;
             $factoriales->factoriales();
             include('../views/potencias2.php');            
@@ -54,7 +54,7 @@
 
         public function primos()
         {
-            require_once "../controlador/primos.php";
+            require_once "../models/primos.php";
             $primos = new Primos;
             $primos->primos();
             include('../views/primos.php');            
