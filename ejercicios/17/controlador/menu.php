@@ -9,7 +9,7 @@
                 $method = $_GET['method'];
             } 
             else {
-                switch ($_GET["fibonacci"]) {
+                switch ($_GET) {
                     case "fibonacci":
                         $method = "fibonacci";
                         break;                                        
