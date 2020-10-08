@@ -6,9 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <form method="post" action="#">
+    <form method="post" action="./Index.php?method=auth">
         <label>Usuario: </label>
-        <input type="text" value="" name="nombre">
+        <input type="text" value="" name="usuario">
         <br/>
         <label>Password: </label>
         <input type="password" value="" name="password">
