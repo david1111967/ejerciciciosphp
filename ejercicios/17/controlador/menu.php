@@ -6,9 +6,6 @@
         public function run()
         {
             if (isset($_GET['method'])) {
-                $method = $_GET['method'];
-            } 
-            else {
                 switch ($_GET['method']) {
                     case "fibonacci":
                         $method = "fibonacci";
@@ -22,7 +19,12 @@
                     case "primos":
                         $method = "primos";
                         break;
+                    default:
+                        header("Location: ../Index.php");
                 }
+            } 
+            else {
+                header("Location: ../Index.php");
             }
             
             $this->$method();            
